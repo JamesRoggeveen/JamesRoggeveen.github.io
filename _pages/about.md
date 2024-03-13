@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [CV](assets/pdf/cv.pdf)
+subtitle: 
 
 profile:
   align: right
