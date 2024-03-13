@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jamesroggeveen.github.io//sitemap.xml
+Sitemap: https://jamesroggeveen.github.io/index/sitemap.xml
