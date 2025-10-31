@@ -58,3 +58,82 @@
   html = {http://dx.doi.org/10.1109/AERO.2017.7943715},
   abstract = {WindBots is a NIAC funded concept for a longduration atmospheric robot explorer targeting the region between 0.3 bar and 10 bar on Jupiter. The WindBot would explore this region, which extends from 15km above to 125km below the reference surface at 1 bar. Proposed WindBot mission scenarios include a glider which would use updrafts to gain altitude before gliding to find another updraft, mimicking the action of soaring birds such as frigate birds. In another mission scenario, a balloon-like WindBot would use buoyancy to maintain altitude within its operational region. An important requirement of a WindBot is survival with energy obtained in-situ to provide power for the 30-50W avionic payload envisioned for the mission. The solar intensity below Jupiter's clouds is small and a solar solution as well as a nuclear solution have been ruled out from this study. This paper analyzes methods of energy generation and harvesting in Jupiters atmosphere and offers a comparison of the relative power densities. Wind, thermal, and magnetic energy, as well as other modalities, are sources of energy for a WindBot to transform into mechanical or electrical energy. Mechanisms evaluated include vibration harvesting and turbine technologies to utilize smallscale wind velocity gradients. Natural atmospheric thermal and pressure gradients may be tapped to provide power to a WindBot. The possibility of inductive generation using Jupiters strong magnetic field is also considered. Finally, these methods are evaluated on their power density and applicability to proposed WindBot designs.}
 }
+
+@misc{Sunol2025,
+  doi = {10.48550/ARXIV.2510.24673},
+  url = {https://arxiv.org/abs/2510.24673},
+  author = {Sunol,  Alp M. and Roggeveen,  James V. and Alhashim,  Mohammed G. and Bae,  Henry S. and Brenner,  Michael P.},
+  keywords = {Fluid Dynamics (physics.flu-dyn),  FOS: Physical sciences,  FOS: Physical sciences},
+  title = {Learning constitutive models and rheology from partial flow measurements},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution 4.0 International},
+  abstract = {Constitutive laws are at the core of fluid mechanics, relating the fluid stress to its deformation rate. Unlike Newtonian fluids, most industrial and biological fluids are non-Newtonian, exhibiting a nonlinear relation. Accurately characterizing this nonlinearity is essential for predicting flow behavior in real-world engineering and translational applications. Yet current methods fall short by relying on bulk rheometer data and simple fits that fail to capture behaviors relevant in complex geometries and flow conditions. Data-driven approaches can capture more complex behaviors, but lack interpretability or consistency. To close this gap, we leverage automatic differentiation to build an end-to-end framework for robust rheological learning. We develop a differentiable non-Newtonian fluid solver with a tensor basis neural network closure that learns stress directly from arbitrary flow measurements, such as velocimetry data. In parallel, we implement differentiable versions of major constitutive relations, enabling Bayesian model parametrization and selection from rheometer data. Our framework predicts flows in unseen geometries and ensures physical consistency and interpretability by matching neural network responses to known constitutive laws. Ultimately, this work lays the groundwork for advanced digital rheometry capable of comprehensively characterizing non-Newtonian and viscoelastic fluids under realistic in-situ or in-line operating conditions. }
+}
+
+@misc{Pan2025,
+  doi = {10.48550/ARXIV.2510.05228},
+  url = {https://arxiv.org/abs/2510.05228},
+  author = {Pan,  Haining and Roggeveen,  James V. and Berg,  Erez and Carrasquilla,  Juan and Chowdhury,  Debanjan and Ganguli,  Surya and Ghimenti,  Federico and Hasik,  Juraj and Hunt,  Henry and Jiang,  Hong-Chen and Kamb,  Mason and Kao,  Ying-Jer and Khatami,  Ehsan and Lawler,  Michael J. and Luo,  Di and Neupert,  Titus and Qi,  Xiaoliang and Brenner,  Michael P. and Kim,  Eun-Ah},
+  keywords = {Machine Learning (cs.LG),  Artificial Intelligence (cs.AI),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {CMT-Benchmark: A Benchmark for Condensed Matter Theory Built by Expert Researchers},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Zero v1.0 Universal},
+  abstract = {Large language models (LLMs) have shown remarkable progress in coding and math problem-solving, but evaluation on advanced research-level problems in hard sciences remains scarce. To fill this gap, we present CMT-Benchmark, a dataset of 50 problems covering condensed matter theory (CMT) at the level of an expert researcher. Topics span analytical and computational approaches in quantum many-body, and classical statistical mechanics. The dataset was designed and verified by a panel of expert researchers from around the world. We built the dataset through a collaborative environment that challenges the panel to write and refine problems they would want a research assistant to solve, including Hartree-Fock, exact diagonalization, quantum/variational Monte Carlo, density matrix renormalization group (DMRG), quantum/classical statistical mechanics, and model building. We evaluate LLMs by programmatically checking solutions against expert-supplied ground truth. We developed machine-grading, including symbolic handling of non-commuting operators via normal ordering. They generalize across tasks too. Our evaluations show that frontier models struggle with all of the problems in the dataset, highlighting a gap in the physical reasoning skills of current LLMs. Notably, experts identified strategies for creating increasingly difficult problems by interacting with the LLMs and exploiting common failure modes. The best model, GPT5, solves 30\% of the problems; average across 17 models (GPT, Gemini, Claude, DeepSeek, Llama) is 11.4\pm2.1\%. Moreover, 18 problems are solved by none of the 17 models, and 26 by at most one. These unsolved problems span Quantum Monte Carlo, Variational Monte Carlo, and DMRG. Answers sometimes violate fundamental symmetries or have unphysical scaling dimensions. We believe this benchmark will guide development toward capable AI research assistants and tutors. }
+}
+
+@misc{Roggeveen2025,
+  doi = {10.48550/ARXIV.2510.25752},
+  url = {https://arxiv.org/abs/2510.25752},
+  author = {Roggeveen,  James V. and Brenner,  Michael P.},
+  keywords = {Numerical Analysis (math.NA),  Machine Learning (cs.LG),  Computational Physics (physics.comp-ph),  FOS: Mathematics,  FOS: Mathematics,  FOS: Computer and information sciences,  FOS: Computer and information sciences,  FOS: Physical sciences,  FOS: Physical sciences},
+  title = {Meshless solutions of PDE inverse problems on irregular geometries},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution 4.0 International},
+  abstract = {Solving inverse and optimization problems over solutions of nonlinear partial differential equations (PDEs) on complex spatial domains is a long-standing challenge. Here we introduce a method that parameterizes the solution using spectral bases on arbitrary spatiotemporal domains, whereby the basis is defined on a hyperrectangle containing the true domain. We find the coefficients of the basis expansion by solving an optimization problem whereby both the equations, the boundary conditions and any optimization targets are enforced by a loss function, building on a key idea from Physics-Informed Neural Networks (PINNs). Since the representation of the function natively has exponential convergence, so does the solution of the optimization problem, as long as it can be solved efficiently. We find empirically that the optimization protocols developed for machine learning find solutions with exponential convergence on a wide range of equations. The method naturally allows for the incorporation of data assimilation by including additional terms in the loss function, and for the efficient solution of optimization problems over the PDE solutions. }
+}
+
+@misc{hardmath2,
+  doi = {10.48550/ARXIV.2505.11774},
+  url = {https://arxiv.org/abs/2505.11774},
+  author = {\bf{Roggeveen,  J. V.} and Wang,  Erik Y. and Flintoft,  Will and Donets,  Peter and Nathwani,  Lucy S. and Gutierrez,  Nickholas and Ettel,  David and Graf,  Anton Marius and Dandavate,  Siddharth and Nageswaran,  Arjun and Ward,  Raglan and Williamson,  Ava and Mykland,  Anne and Migacz,  Kacper K. and Wang,  Yijun and Bostan,  Egemen and Nguyen,  Duy Thuc and He,  Zhe and Descoteaux,  Marc L. and Yeung,  Felix and Liu,  Shida and Ponce,  Jorge García and Zhu,  Luke and Chen,  Yuyang and Ivshina,  Ekaterina S. and Fernandez,  Miguel and Kim,  Minjae and Gumbs,  Kennan and Tan,  Matthew Scott and Yang,  Russell and Hoang,  Mai and Brown,  David and Silveira,  Isabella A. and Sykes,  Lavon and Roman,  Ahmed and Fredenberg,  William and Chen,  Yiming and Martin,  Lucas and Tang,  Yixing and Smith,  Kelly Werker and Liao,  Hongyu and Wilson,  Logan G. and Cai,  Alexander Dazhen and Biju,  Andrea Elizabeth and Brenner,  Michael P.},
+  keywords = {Machine Learning (cs.LG),  Artificial Intelligence (cs.AI),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {HARDMath2: A Benchmark for Applied Mathematics Built by Students as Part of a Graduate Class},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution 4.0 International},
+  abstract = {Large language models (LLMs) have shown remarkable progress in mathematical problem-solving, but evaluation has largely focused on problems that have exact analytical solutions or involve formal proofs, often overlooking approximation-based problems ubiquitous in applied science and engineering. To fill this gap, we build on prior work and present , a dataset of 211 original problems covering the core topics in an introductory graduate applied math class, including boundary-layer analysis, WKB methods, asymptotic solutions of nonlinear partial differential equations, and the asymptotics of oscillatory integrals. This dataset was designed and verified by the students and instructors of a core graduate applied mathematics course at Harvard. We build the dataset through a novel collaborative environment that challenges students to write and refine difficult problems consistent with the class syllabus, peer-validate solutions, test different models, and automatically check LLM-generated solutions against their own answers and numerical ground truths. Evaluation results show that leading frontier models still struggle with many of the problems in the dataset, highlighting a gap in the mathematical reasoning skills of current LLMs. Importantly, students identified strategies to create increasingly difficult problems by interacting with the models and exploiting common failure modes. This back-and-forth with the models not only resulted in a richer and more challenging benchmark but also led to qualitative improvements in the students' understanding of the course material, which is increasingly important as we enter an age where state-of-the-art language models can solve many challenging problems across a wide domain of fields.}
+}
+
+@article{Cheng2025,
+  title = {Micropipette aspiration reveals differential RNA-dependent viscoelasticity of nucleolar subcompartments},
+  volume = {122},
+  ISSN = {1091-6490},
+  url = {http://dx.doi.org/10.1073/pnas.2407423122},
+  DOI = {10.1073/pnas.2407423122},
+  number = {22},
+  journal = {Proceedings of the National Academy of Sciences},
+  publisher = {Proceedings of the National Academy of Sciences},
+  author = {Cheng,  Holly H. and Roggeveen,  James V. and Wang,  Huan and Stone,  Howard A. and Shi,  Zheng and Brangwynne,  Clifford P.},
+  year = {2025},
+  month = may ,
+  abstract = {The nucleolus is a multiphasic biomolecular condensate that facilitates ribosome biogenesis, a complex process involving hundreds of proteins and RNAs. The proper execution of ribosome biogenesis likely depends on the material properties of the nucleolus. However, these material properties remain poorly understood due to the challenges of in vivo measurements. Here, we use micropipette aspiration (MPA) to directly characterize the viscoelasticity and interfacial tensions of nucleoli within transcriptionally active Xenopus laevis oocytes. We examine the major nucleolar subphases, the outer granular component (GC) and the inner dense fibrillar component (DFC), which itself contains a third small phase known as the fibrillar center (FC). We show that the behavior of the GC is more liquid-like, while the behavior of the DFC/FC is consistent with that of a partially viscoelastic solid. To determine the role of ribosomal RNA in nucleolar material properties, we degrade RNA using RNase A, which causes the DFC/FC to become more fluid-like and alters interfacial tension. Together, our findings suggest that RNA underlies the partially solid-like properties of the DFC/FC and provide insights into how material properties of nucleoli in a near-native environment are related to their RNA-dependent function.}
+}
+
+@article{Roggeveen2025a,
+  title = {Drift of elastic hinges in quasi-two-dimensional oscillating shear flows},
+  volume = {10},
+  ISSN = {2469-990X},
+  url = {http://dx.doi.org/10.1103/PhysRevFluids.10.034401},
+  DOI = {10.1103/physrevfluids.10.034401},
+  number = {3},
+  journal = {Physical Review Fluids},
+  publisher = {American Physical Society (APS)},
+  author = {Roggeveen,  J. V. and Stone,  H. A.},
+  year = {2025},
+  month = mar,
+  selected={true},
+  abstract = {In low-Reynolds-number flows, time reversibility makes it impossible for rigid particles to self-propel using reciprocal motions. When passive particles are freely suspended in a background flow that sinusoidally oscillates and is on average stationary, rigid particles are likewise stationary on average. However, as we demonstrate, an elastic particle in such a flow may experience net translation over each period of the flow oscillation. In this paper we analytically and numerically explore the dynamics of particles in steady and oscillatory shear flows. In particular, we study hinges, which we define as a particle consisting of two slender rigid rods joined at one of their ends at a hinge point. We focus on two classes of hinges: rigid hinges, where the two arms of the hinge are fixed relative to each other, and elastic hinges, where the two arms are allowed to rotate relative to each other with a restoring torque provided by a linear torsional spring. Hinges serve as qualitative analogs for curved fibers, which are an important class of particles in many biological and industrial flow applications. We first analyze the motion of elastic hinges in flow-free environments, providing an asymptotic theory to explain the emergence of symmetry breaking in the net translation between a hinge that is initially open versus one that is initially closed. We next turn to studying hinges in flows. In steady shear, both rigid and elastic hinges undergo periodic motions similar to Jeffery orbits with no steady cross-streamline motion. When the hinges are placed in a shear flow whose shear rate oscillates with time, the rigid hinge undergoes no net motion while an elastic hinge's motion is characterized by attracting cycles in the phase space, which undergo bifurcations as the geometric and flow parameters vary. These cycles lead to nonreciprocal translational motions of the hinge, related to the symmetry-breaking motion presented in the flow-free case, which vary in both magnitude and direction as a function of the controlling parameters. This raises the possibility of designing hinges with particular geometric parameters and then tuning the macroscopic flow properties to control and manipulate the particles while also aiding in particle separation, or, conversely, mixing.}
+}

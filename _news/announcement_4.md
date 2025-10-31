@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I graduated from Princeton University, bringing my nearly five year journey here to a close. I never thought I would say it, but I will definitely miss New Jersey.
+I graduated from Princeton University, bringing my nearly five year journey here to a close.

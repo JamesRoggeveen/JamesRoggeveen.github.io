@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to be attending the 77th Annual Meeting of the APS Division of Fluid Dynamics in Salt Lake City.
+Excited to be attending the 77th Annual Meeting of the APS Division of Fluid Dynamics in Salt Lake City talking about our recently submitted work on elastic hinges in oscillating flows.
