@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Presented "Geometry-driven drift of passive particles in flows" at the Physical Mathematics Seminar, MIT, Boston.
-

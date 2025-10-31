@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Presented "Shear-driven drift of passive, asymmetric and deformable particles" at the Mechanics Joint Group Meeting, Boston University, Boston.
-
