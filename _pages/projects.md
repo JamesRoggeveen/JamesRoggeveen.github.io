@@ -2,7 +2,7 @@
 layout: page
 title: animations
 permalink: /animations/
-description: A growing collection of your cool animations.
+description: A collection of animations illustrating key principles of my research papers or interesting mathematics.
 nav: true
 nav_order: 4
 display_categories: [research, mathematics]
