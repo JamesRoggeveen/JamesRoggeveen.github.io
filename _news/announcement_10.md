@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-28 00:00:00-0000
+date: 2025-09-18 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-Our paper on modeling viscoelasticity of biological condensates found in cellular nucleoli is [out now](https://doi-org.ezp-prod1.hul.harvard.edu/10.1073/pnas.2407423122) in PNAS!
+Excited to announce that our paper [HardMATH2](https://doi.org/10.48550/arXiv.2505.11774) has been accepted at NeurIPS 2025!
