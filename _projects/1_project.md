@@ -2,7 +2,7 @@
 layout: page
 title: Elastic hinges
 description:
-img: assets/img/limit_cycle.jpg
+img: assets/img/limit_cycle.png
 importance: 2
 category: research
 related_publications: true
