@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A short demo I wrote on animating Jeffery's orbits has been published on the [Wolfram Site](https://community.wolfram.com/groups/-/m/t/3431314) as a Featured Staff Pick.
+A Wolfram Community post I wrote on animating [Jeffery's orbits](https://community.wolfram.com/groups/-/m/t/3431314) was selected for Staff Picks and Publication Materials, earning a Featured Contributor badge.

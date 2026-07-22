@@ -1,11 +1,11 @@
 ---
 layout: page
-title: animations
-permalink: /animations/
-description: A collection of animations illustrating key principles of my research papers or interesting mathematics.
+title: research
+permalink: /research/
+description: Selected research projects in scientific AI evaluation, differentiable computing, and physical modeling.
 nav: true
 nav_order: 4
-display_categories: [research, mathematics]
+display_categories: [postdoc,phd]
 horizontal: false
 ---
 

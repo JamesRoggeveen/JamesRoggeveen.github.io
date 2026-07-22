@@ -14,8 +14,19 @@
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
+      {% elsif include.aspect_ratio %}
       {% else %}
         height="auto"
+      {% endif %}
+      {% if include.aspect_ratio or include.style %}
+        style="
+          {% if include.aspect_ratio %}
+            aspect-ratio: {{ include.aspect_ratio }};
+          {% endif %}
+          {% if include.style %}
+            {{ include.style }}
+          {% endif %}
+        "
       {% endif %}
       {% if include['min-width'] %}
         min-width="{{ include.min-width }}"
@@ -50,7 +61,9 @@
       {% if include.poster %}
         poster="{{ include.poster }}"
       {% endif %}
-    />
+    >
+      Your browser does not support the video tag.
+    </video>
 
   {% else %}
     <iframe
@@ -68,8 +81,19 @@
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
+      {% elsif include.aspect_ratio %}
       {% else %}
         height="auto"
+      {% endif %}
+      {% if include.aspect_ratio or include.style %}
+        style="
+          {% if include.aspect_ratio %}
+            aspect-ratio: {{ include.aspect_ratio }};
+          {% endif %}
+          {% if include.style %}
+            {{ include.style }}
+          {% endif %}
+        "
       {% endif %}
       {% if include['min-width'] %}
         min-width="{{ include.min-width }}"
@@ -89,7 +113,7 @@
       {% if include.title %}
         title="{{ include.title }}"
       {% endif %}
-    />
+    ></iframe>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>

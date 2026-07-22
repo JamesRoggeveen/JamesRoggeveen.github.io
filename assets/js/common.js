@@ -51,3 +51,19 @@ $(document).ready(function () {
     }
   });
 });
+
+function updateLongCaptionAlignment() {
+  document.querySelectorAll(".caption").forEach((caption) => {
+    const styles = window.getComputedStyle(caption);
+    const lineHeight = parseFloat(styles.lineHeight);
+
+    if (!lineHeight) return;
+
+    const lineCount = caption.getBoundingClientRect().height / lineHeight;
+    caption.classList.toggle("long-caption", lineCount > 2.05);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", updateLongCaptionAlignment);
+window.addEventListener("load", updateLongCaptionAlignment);
+window.addEventListener("resize", updateLongCaptionAlignment);

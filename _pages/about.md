@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher & Applied Mathematician
+subtitle: Agent Evaluation | Scientific Reasoning | Applied Mathematics
 
 profile:
   align: right
@@ -15,16 +15,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an applied mathematician and engineer developing computational frameworks that connect physical modeling, experimental data, and optimization. My goal is to build robust, general-purpose tools that accelerate scientific discovery by closing the loop between theory, simulation, and experiment.
+I am a researcher and applied mathematician building agent evaluations for scientific and engineering domains. My work combines expert-designed tasks, programmatic graders, trajectory analysis, and differentiable scientific computing to test and extend the capabilities of frontier AI systems.
 
-As a Postdoctoral Fellow at Harvard University with Prof. Michael Brenner, my research is focused on three main areas:
+I am currently a Postdoctoral Fellow at Harvard University with Prof. Michael Brenner and a Visiting Faculty Researcher at Google DeepMind. At Google DeepMind, I contribute to agentic evaluations for scientific and engineering domains and was publicly credited for foundational support to the [Gemini Deep Think team](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/).
 
-- **[Meshless PDE Solvers](https://arxiv.org/abs/2510.25752)**: I have developed a new spectral method for solving PDE inverse problems on complex and irregular geometries. This differentiable, meshless solver avoids grid generation, demonstrates exponential convergence, and is a powerful engine for optimization problems, which I have applied to challenges like modeling Antarctic ice sheet viscosity from observational data.
-- **[Automated Model Discovery](https://arxiv.org/abs/2510.24673)**: I build tools that discover physical laws directly from data. I created a differentiable rheology framework that fits complex constitutive models to lab measurements and uses Bayesian methods to suggest the next best experiment to perform, accelerating materials characterization.
-- **AI for Scientific Reasoning**: To rigorously test the capabilities of modern AI, I co-led the development of the [HARDMath2](https://arxiv.org/abs/2505.11774) benchmark. We pioneered a novel approach where graduate students in an applied math course created the problems, and I built the infrastructure to automatically parse and grade the AI-generated LaTeX solutions.
+My recent work is focused on three connected areas:
+
+- **[Scientific AI Evaluation](/projects/scientific_ai_evaluation/)**: I build infrastructure for evaluating language-model agents on authentic scientific and engineering work. I co-led [HARDMath2](https://arxiv.org/abs/2505.11774), a 211-problem benchmark for graduate-level applied mathematics, and built evaluation infrastructure for [CMT-Benchmark](https://arxiv.org/abs/2510.05228), a condensed-matter theory benchmark built by expert researchers.
+- **[Meshless PDE Solvers](https://arxiv.org/abs/2510.25752)**: I developed a meshless, differentiable spectral method for PDE inverse problems on irregular geometries. A useful pattern has been to require coding agents to pass independent numerical checks before reporting results, which helps catch invalid implementations while extending the solver to new applications.
+- **[Automated Model Discovery](https://arxiv.org/abs/2510.24673)**: I build differentiable tools for discovering physical laws from partial measurements, including a framework for identifying tensor-valued constitutive laws from sparse flow data.
 
 My Ph.D. in Mechanical Engineering at Princeton University, advised by Prof. Howard A. Stone, focused on particle dynamics in low-Reynolds-number flows and creating improved hydrodynamic models for characterizing the material properties of biological condensates using micropipette aspiration.
 
-As a researcher and an engineer, my core competencies are in the development of data-driven mathematical models to predict, control, and optimize complex systems. My training has given me effective verbal, written, and visual communication skills, including conveying complex mathematical systems through animation. I am experienced with cross–discipline collaboration with diverse teams to implement engineering solutions in fast-paced environments and automation of data validation and analysis pipelines to improve efficiency in dealing with experimental data.
+Across these projects, I am especially interested in building systems that let domain experts contribute high-quality scientific tasks without needing to own the full evaluation harness. My background gives me both sides of that problem: deep experience in physical modeling and scientific computing, and hands-on experience designing benchmark infrastructure for frontier language models.
 
-I am passionate about applying my skills in computational modeling, differentiable programming (JAX), and data-driven science to solve challenging problems in a collaborative environment.
+Current focus: agent evaluations for scientific and engineering domains; expert-built benchmarks; programmatic grading; symbolic and numerical verification; independent checks for agent-generated scientific code; and failure analysis for frontier-model behavior.

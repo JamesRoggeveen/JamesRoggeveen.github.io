@@ -159,6 +159,11 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+.caption.long-caption {
+  text-align: justify;
+  text-align-last: left;
+}
+
 // Card
 
 .card {
