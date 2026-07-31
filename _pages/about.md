@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a researcher and applied mathematician building agent evaluations for scientific and engineering domains. My work combines expert-designed tasks, programmatic graders, trajectory analysis, and differentiable scientific computing to test and extend the capabilities of frontier AI systems.
+I am a researcher and applied mathematician building agent evaluations for scientific and engineering domains. My work combines expert-designed tasks, programmatic grading, task quality assessment, and differentiable scientific computing to test and extend the capabilities of frontier AI systems.
 
-I am currently a Postdoctoral Fellow at Harvard University with Prof. Michael Brenner and a Visiting Faculty Researcher at Google DeepMind. At Google DeepMind, I contribute to agentic evaluations for scientific and engineering domains and was publicly credited for foundational support to the [Gemini Deep Think team](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/).
+I am currently a Postdoctoral Fellow at Harvard University with Prof. Michael Brenner and a Visiting Faculty Researcher at Google DeepMind. At Google DeepMind, I contribute scientific and engineering expertise to evaluating advanced AI reasoning and was publicly credited for foundational support to the [Gemini Deep Think team](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/).
 
 My recent work is focused on three connected areas:
 
@@ -29,4 +29,4 @@ My Ph.D. in Mechanical Engineering at Princeton University, advised by Prof. How
 
 Across these projects, I am especially interested in building systems that let domain experts contribute high-quality scientific tasks without needing to own the full evaluation harness. My background gives me both sides of that problem: deep experience in physical modeling and scientific computing, and hands-on experience designing benchmark infrastructure for frontier language models.
 
-Current focus: agent evaluations for scientific and engineering domains; expert-built benchmarks; programmatic grading; symbolic and numerical verification; independent checks for agent-generated scientific code; and failure analysis for frontier-model behavior.
+Current focus: agent evaluations for scientific and engineering domains; expert-built benchmarks; programmatic grading; symbolic and numerical verification; independent checks for agent-generated scientific code; and task quality assessment.

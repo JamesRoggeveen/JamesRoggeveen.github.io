@@ -11,8 +11,7 @@
       institution: Google DeepMind
       year: 2025-Present
       description:
-        - Developed scalable domain-specific engineering tasks and associated programmatic graders.
-        - Reviewed agentic tasks and environments for scientific and engineering domains.
+        - Contributed scientific and engineering expertise to evaluating advanced AI reasoning with researchers and domain experts.
         - Publicly credited for foundational support to the Gemini Deep Think team.
 
     - title: Postdoctoral Fellow in Applied Mathematics
@@ -53,11 +52,11 @@
   contents:
     - title: Agent evaluation
       items:
-        - Agentic task and environment design
         - Expert-driven benchmark development
+        - Task quality assessment
         - Programmatic grading
         - Symbolic and numerical verification
-        - Trajectory analysis
+        - Collaborative evaluation workflows
     - title: Scientific computing
       items:
         - Automatic differentiation

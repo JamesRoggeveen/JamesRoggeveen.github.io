@@ -3,8 +3,6 @@
     "name": "James Roggeveen, Ph.D.",
     "label": "Agent Evaluation | Scientific Reasoning | Applied Mathematics",
     "image": "",
-    "email": "j.v.roggeveen@gmail.com",
-    "phone": "(508) 280-2536",
     "url": "https://www.jamesroggeveen.com",
     "summary": "Researcher and applied mathematician building agent evaluations for scientific and engineering domains. Develops expert-designed tasks, programmatic graders, and evaluation infrastructure, with a research background in differentiable scientific computing, inverse problems, and physical modeling.",
     "location": {},
@@ -28,10 +26,9 @@
       "url": "https://deepmind.google/",
       "startDate": "2025-01-01",
       "endDate": "",
-      "summary": "Agentic evaluations for scientific and engineering domains.",
+      "summary": "Scientific and engineering expertise for evaluating advanced AI reasoning.",
       "highlights": [
-        "Developed scalable domain-specific engineering tasks and associated programmatic graders; analyzed agent trajectories to identify failures in core competencies and guide task and grader revisions.",
-        "Reviewed agentic tasks and environments for scientific and engineering domains, assessing their realism, difficulty, and validity as capability evaluations.",
+        "Contributed scientific and engineering expertise to evaluating advanced AI reasoning, collaborating with researchers and domain experts to assess task quality and model capabilities.",
         "Publicly credited by Google DeepMind for foundational support to the Gemini Deep Think team."
       ]
     },
@@ -149,11 +146,11 @@
       "level": "",
       "icon": "",
       "keywords": [
-        "Agentic task and environment design",
         "Expert-driven benchmark development",
+        "Task quality assessment",
         "Programmatic grading",
         "Symbolic and numerical verification",
-        "Trajectory analysis"
+        "Collaborative evaluation workflows"
       ]
     },
     {
